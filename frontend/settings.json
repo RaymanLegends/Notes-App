@@ -1,0 +1,24 @@
+{
+    "tailwindCSS.experimental.classRegex": [
+        // This is the default regex, needed for all other Tailwind classes
+        ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
+
+        // 💡 This line tells IntelliSense to scan for classes 
+        // that are defined inside DaisyUI's styles, which it finds 
+        // in your imported CSS file (index.css).
+        "tailwind\\.config\\.js",
+        
+        // You may also want to explicitly include HTML and JSX files 
+        // if the standard settings don't cover them:
+        "\\.html", 
+        "\\.jsx",
+        "\\.js",
+        "\\.ts",
+        "\\.tsx"
+    ],
+    // Optional: Include custom files if they are named differently
+    "tailwindCSS.includeLanguages": {
+        "javascript": "javascript",
+        "javascriptreact": "javascriptreact"
+    }
+}

@@ -1,0 +1,8 @@
+# Ignore the environment file inside the backend
+backend/src/.env
+
+# Ignore node_modules in both locations
+**/node_modules/
+
+# Ignore build files
+frontend/dist/
